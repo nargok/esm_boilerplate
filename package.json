@@ -1,0 +1,14 @@
+{
+  "name": "esm_study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.0",
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon -r esm index.js"
+  }
+}
